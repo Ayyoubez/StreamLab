@@ -3,16 +3,11 @@ import BroadcastlyLogo from "../assets/broadcastly-logo.png";
 import LiveStreamerLogo from "../assets/livestreamer-logo.png";
 import CloudCastLogo from "../assets/cloudcast-logo.png";
 
-// import heroImage from "../assets/herobackground.png";
 import streamImage from "../assets/post1.png";
 import chart from "../assets/post3.png";
-// import optimize from "../assets/optimize.jpeg";
+
 import audienceEngagementImage from "../assets/post2.png";
-// import monetizeImage from "../assets/monetize.jpeg";
-// import automationImage from "../assets/automation.jpeg";
-// import user1 from "../assets/user1.jpeg";
-// import user2 from "../assets/user2.jpeg";
-// import user3 from "../assets/user3.jpeg";
+
 import user4 from "../assets/user4.jpeg";
 import user5 from "../assets/user5.jpeg";
 import user6 from "../assets/user6.jpeg";
@@ -72,27 +67,6 @@ export const HOW_IT_WORKS_CONTENT = {
       imageSrc: chart,
       imageAlt: "Performance Analytics",
     },
-    // {
-    //   title: "Optimize Your Stream Settings",
-    //   description:
-    //     "Fine-tune your stream settings for optimal performance, ensuring smooth streams even during high traffic.",
-    //   imageSrc: optimize,
-    //   imageAlt: "Optimize Settings",
-    // },
-    // {
-    //   title: "Monetize Your Streams",
-    //   description:
-    //     "Unlock revenue streams by adding subscriptions, donations, and sponsorships to your stream.",
-    //   imageSrc: monetizeImage,
-    //   imageAlt: "Monetization",
-    // },
-    // {
-    //   title: "Automate Your Workflows",
-    //   description:
-    //     "Use advanced automation tools to manage your schedule, alerts, and promotions effortlessly.",
-    //   imageSrc: automationImage,
-    //   imageAlt: "Workflow Automation",
-    // },
   ],
 };
 
@@ -101,27 +75,6 @@ export const KEY_FEATURES_CONTENT = {
   sectionDescription:
     "Everything you need to enhance your streaming experience, all in one place.",
   features: [
-    // {
-    //   id: 1,
-    //   icon: <RiBarChart2Line className="w-8 h-8" />,
-    //   title: "Real-Time Stream Analytics",
-    //   description:
-    //     "Track your audience engagement, viewer count, and performance in real-time.",
-    // },
-    // {
-    //   id: 2,
-    //   icon: <RiSettings2Line className="w-8 h-8" />,
-    //   title: "Automated Stream Management",
-    //   description:
-    //     "Set up automated alerts, stream schedules, and more with ease.",
-    // },
-    // {
-    //   id: 3,
-    //   icon: <RiTeamLine className="w-8 h-8" />,
-    //   title: "Audience Engagement Tools",
-    //   description:
-    //     "Interact with your audience through custom alerts, chat integrations, and giveaways.",
-    // },
     {
       id: 1,
       icon: <RiTwitchLine className="w-8 h-8" />,
@@ -200,27 +153,6 @@ export const TESTIMONIALS_CONTENT = {
   sectionDescription:
     "Hear from some of the top streamers who use Streamerzz to engage with their audience and grow their channels.",
   reviews: [
-    // {
-    //   name: "Alice Johnson",
-    //   title: "Content Creator",
-    //   review:
-    //     "Streamerzz has revolutionized the way we manage our content subscriptions. The intuitive dashboard and real-time analytics have made it easier to track our progress and optimize our offerings. Highly recommended!",
-    //   image: user1,
-    // },
-    // {
-    //   name: "Bob Smith",
-    //   title: "Marketing Specialist",
-    //   review:
-    //     "The team at Streamerzz has been fantastic! Their support is responsive and knowledgeable. The platform itself is versatile and has helped us streamline our subscription management, saving us time and increasing efficiency.",
-    //   image: user2,
-    // },
-    // {
-    //   name: "Carla Mendes",
-    //   title: "Product Manager",
-    //   review:
-    //     "Streamerzz's automated billing and comprehensive analytics have been game-changers for our product team. We can now easily track user engagement and make data-driven decisions to enhance our service offerings.",
-    //   image: user3,
-    // },
     {
       name: "David Lee",
       title: "Customer Success Manager",
@@ -243,62 +175,4 @@ export const TESTIMONIALS_CONTENT = {
       image: user6,
     },
   ],
-};
-
-export const FOOTER_CONTENT = {
-  sections: [
-    {
-      title: "TOOLS & SERVICES",
-      links: [
-        { text: "Real-time Analytics", url: "#" },
-        { text: "Customizable Alerts", url: "#" },
-        { text: "Integrated Chat Systems", url: "#" },
-        { text: "Instant Notifications", url: "#" },
-        { text: "Overlays & Visuals", url: "#" },
-        { text: "Mobile Streaming Support", url: "#" },
-        { text: "4K Stream Capabilities", url: "#" },
-        { text: "Stream Scheduling Tool", url: "#" },
-      ],
-    },
-    {
-      title: "SUPPORT & RESOURCES",
-      links: [
-        { text: "Subscription Plans", url: "#" },
-        { text: "Affiliate Program", url: "#" },
-        { text: "Frequently Asked Questions", url: "#" },
-        { text: "Company Blog", url: "#" },
-        { text: "Subscribe to Newsletter", url: "#" },
-        { text: "Latest Features", url: "#" },
-        { text: "Merchandise Store", url: "#" },
-        { text: "Workshops & Events", url: "#" },
-      ],
-    },
-    {
-      title: "CONNECT WITH US",
-      links: [
-        { text: "Twitter", url: "#" },
-        { text: "Facebook", url: "#" },
-        { text: "TikTok", url: "#" },
-        { text: "LinkedIn", url: "#" },
-        { text: "YouTube", url: "#" },
-        { text: "Twitch", url: "#" },
-        { text: "Discord", url: "#" },
-      ],
-    },
-    {
-      title: "LEARN & EXPLORE",
-      links: [
-        { text: "Engage Viewers with Custom Alerts", url: "#" },
-        { text: "Top Streaming Strategies for New Streamers", url: "#" },
-        { text: "How to Stream in 4K for Maximum Quality", url: "#" },
-        { text: "Efficient Stream Scheduling Techniques", url: "#" },
-        { text: "Using Analytics to Boost Engagement", url: "#" },
-        { text: "Create Stunning Overlays for Streams", url: "#" },
-        { text: "Advanced Analytics for Streamers: A Guide", url: "#" },
-      ],
-    },
-  ],
-  platformsText:
-    "Streaming Platforms | Twitch | YouTube | Discord | Facebook Gaming",
-  copyrightText: "© 2024 Streamerzz, Inc. All rights reserved.",
 };

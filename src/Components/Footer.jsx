@@ -1,5 +1,5 @@
 import { FOOTER_CONTENT } from "../constants";
-// import logo from "../assets.logo.png";
+
 import logo from "../assets/logo.png";
 const Footer = () => {
   return (
