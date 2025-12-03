@@ -157,21 +157,21 @@ export const TESTIMONIALS_CONTENT = {
       name: "David Lee",
       title: "Customer Success Manager",
       review:
-        "Using Streamerzz, we’ve been able to increase our customer retention rates. The platform's user-friendly interface and powerful features have provided our customers with a seamless experience, leading to higher satisfaction.",
+        "Using StreamLab, we’ve been able to streamline our live streaming setup. The platform’s intuitive interface and versatile features make broadcasting effortless, providing our audience with a smooth and engaging experience every time..",
       image: user4,
     },
     {
       name: "Ella Fernandez",
       title: "UX Designer",
       review:
-        "Streamerzz's flexibility and ease of use have made it a key tool in our design process. We can quickly adjust our subscription plans and monitor the impact on user engagement, allowing for a more responsive approach.",
+        "Using StreamLab, we’ve been able to streamline our live streaming setup. The platform’s intuitive interface and versatile features make broadcasting effortless, providing our audience with a smooth and engaging experience every time..",
       image: user5,
     },
     {
       name: "Frank Wilson",
       title: "Data Analyst",
       review:
-        "Streamerzz provides us with detailed insights into our subscription metrics. The advanced reporting tools have enabled us to identify trends and make informed decisions to optimize our growth strategy.",
+        "Using StreamLab, we’ve been able to streamline our live streaming setup. The platform’s intuitive interface and versatile features make broadcasting effortless, providing our audience with a smooth and engaging experience every time..",
       image: user6,
     },
   ],
